@@ -1,0 +1,13 @@
+pagina=open("pagina.html","w", encoding="utf-8") #r=ler, w=escrever
+pagina.write("<!DOCTYPE html>\n")
+pagina.write("<html>\n")
+pagina.write("  <head>\n")
+pagina.write("    <meta charset=\"utf-8\">\n")
+pagina.write("    <title>Minha página de teste</title>\n")
+pagina.write("  </head>\n")
+pagina.write("  <body>\n")
+pagina.write("  <h1>Html com Python!!!<h1></br> ;) \n")
+pagina.write("  </body>\n")
+pagina.write("</html>\n")
+pagina.flush()
+pagina.close()
